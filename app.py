@@ -12,7 +12,7 @@ def display_total_miles(miles, name):
 def get_user_name():
     return input("Hi, what is your name? ")
 
-# main flow of control
+# main flow of control 
 name = get_user_name()
 steps = get_total_steps()
 miles = calculate_miles(steps)
